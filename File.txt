@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+     <form>
+        <fieldset>
+            <legend>Registration Form</legend><br>
+
+             <label for="name">Full Name:</label>
+             <input type="text" name="name" id="name" placeholder="Name" required>
+
+                <br> <br>
+
+            <label for="Email">Email:</label>
+            <input type="Email"  name="email" id="email" placeholder="Email" required> 
+
+            <br> <br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+
+            <br> <br>
+
+            <label for="password">Password:</label>
+            <input type="Password" name="password" id="password" placeholder="Password" required>
+
+            <br> <br>
+
+           <label for="Cars">Select a car:</label>
+
+           <select name="cars" id="cars">
+            <option value="BMW">BMW</option>
+            <option value="Nano">Nano</option>
+            <option value="Porshe">Porshe</option>
+           </select>
+
+            <br> <br>
+
+            <input type="submit" value="Register">
+
+            <br> <br>
+
+        </fieldset>
+    </form>
+<p>Visit My Facebook profile click below</p>
+<a href="https://www.facebook.com/Niteshthakur250">Facebook Profile</a>
+    <!-- Footer -->
+    <footer>
+        <p>©️ 2025 My Portfolio. All Rights Reserved. By prajwal</p>
+    </footer>
+
+</body>
+</html>
